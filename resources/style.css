@@ -9,6 +9,7 @@ body {
   color: seashell;
   overflow: scroll;
   margin: 0 auto;
+  text-align: center;
 }
 
 header {
@@ -17,16 +18,19 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
+  z-index: 15;
 	height: 69px;
 	background-color: black;
 	width: 100%;
 	border-bottom: 1px solid seashell;
 	margin-right: 100px;
 	opacity: 0.9;
+
 }
 
 
 nav {
+
 	margin-right: 10px;
 }
 
@@ -36,6 +40,8 @@ nav a {
 	font-size: 22px;
 	margin: 7px;
 }
+
+
 .logo img{
 	height: 50px;
 	margin-left: 10px;
@@ -43,6 +49,9 @@ nav a {
 }
 
 .hero {
+  position: relative;
+  top: 69px;
+  z-index: 5;
   display: flex;
   width: 1200px;
   height: 700px;
@@ -50,8 +59,8 @@ nav a {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-size: 1200px 700px;
   margin: auto;
-  padding-top: 15px;
   background-repeat: no-repeat;
+
 
 }
 
@@ -75,14 +84,10 @@ h2, h4 {
 }
 
 .main {
-	margin: auto;
+	margin: 0 auto;
+  padding-top: 125px;
 	width: 1000px;
-  padding-top: 25px;
-  /*could also do this section using flex as follows*/
-	/*display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;*/
+
 }
 
 .teacontainer {
@@ -116,7 +121,7 @@ h2, h4 {
 }
 
 
-  .loccontainer {
+.loccontainer {
 
     display: flex;
     flex-direction: column;
@@ -131,20 +136,23 @@ h2, h4 {
 
   }
 
-  .locations h2 {
+.locations h2 {
+
     margin-bottom: 0;
     padding-bottom: 15px;
   }
 
 
-  .addrcontainer {
+.addrcontainer {
+
     display: flex;
     width: 1000px;
     justify-content: space-between;
 
   }
 
-  .address {
+.address {
+
     height: 300px;
     width: 300px;
     margin-left: 20px;
@@ -154,11 +162,12 @@ h2, h4 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    opacity: 1;
 
   }
 
 
-  .contact {
+.contact {
     height: 200px;
     text-align: center;
   }
@@ -172,4 +181,5 @@ h2, h4 {
     margin-left: 20px;
     font-size: 17px;
     font-weight: bold;
+    text-align: left;
   }
