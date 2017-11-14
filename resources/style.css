@@ -45,11 +45,14 @@ nav a {
 .hero {
   display: flex;
   width: 1200px;
-  height: 900px;
+  height: 700px;
   align-items: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: 1200px 700px;
   margin: auto;
+  padding-top: 15px;
   background-repeat: no-repeat;
+
 }
 
 .mission {
@@ -62,7 +65,50 @@ nav a {
   flex-direction: column;
 }
 
-h2, h4 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+.mission h2, h4 {
+  margin-top: 3px;
+  margin-bottom: 7px;
 }
+
+h2, h4 {
+  text-align: center;
+}
+
+.main {
+	margin: auto;
+	width: 1000px;
+  padding-top: 25px;
+  /*could also do this section using flex as follows*/
+	/*display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;*/
+}
+
+.teacontainer {
+	display: flex;
+	justify-content: center;
+}
+
+
+.teatypes {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1000px;
+	justify-content: center;
+
+}
+
+
+.teatypes p {
+	margin: 10px;
+	text-align: center;
+}
+
+
+.teatypes img {
+	height: 200px;
+	width: 300px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 25px;
