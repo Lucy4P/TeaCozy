@@ -92,6 +92,7 @@ h2, h4 {
 
 
 .teatypes {
+
 	display: flex;
 	flex-wrap: wrap;
 	width: 1000px;
@@ -130,6 +131,11 @@ h2, h4 {
 
   }
 
+  .locations h2 {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+  }
+
 
   .addrcontainer {
     display: flex;
@@ -149,4 +155,21 @@ h2, h4 {
     flex-direction: column;
     justify-content: center;
 
+  }
+
+
+  .contact {
+    height: 200px;
+    text-align: center;
+  }
+
+.contact h2 {
+  margin-top: 0;
+  padding-top: 25px;
+}
+
+  footer {
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
   }
