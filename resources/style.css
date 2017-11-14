@@ -112,3 +112,41 @@ h2, h4 {
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-top: 25px;
+}
+
+
+  .loccontainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 500px;
+    width: 1200px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: left;
+    margin-top: 100px;
+
+  }
+
+
+  .addrcontainer {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+
+  }
+
+  .address {
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+  }
